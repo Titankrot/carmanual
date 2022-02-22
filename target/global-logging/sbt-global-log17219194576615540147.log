@@ -1,0 +1,24 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[warn] D:\Scala\hseeberger\carmanual\app\models\Car.scala:10:73: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `create`'s return type
+[warn]   def create(number: String, color: String, brand: String, year: Short) {
+[warn]                                                                         ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\Car.scala:13:24: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `delete`'s return type
+[warn]   def delete(id: Long) {}
+[warn]                        ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\Car.scala:14:13: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `all`'s return type
+[warn]   def all() {}
+[warn]             ^
+[warn] three warnings found
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Canceling execution...
+[error] Cancelled: run
+[error] Cancelled: run
+[error] Use 'last' for the full log.
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,6 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\Scala\hseeberger\carmanual\conf\application.conf,D:\Scala\hseeberger\carmanual\target\scala-2.13\classes\application.conf)
+[debug] 	(D:\Scala\hseeberger\carmanual\conf\logback.xml,D:\Scala\hseeberger\carmanual\target\scala-2.13\classes\logback.xml)
+[debug] 	(D:\Scala\hseeberger\carmanual\conf\messages,D:\Scala\hseeberger\carmanual\target\scala-2.13\classes\messages)
+[debug] 	(D:\Scala\hseeberger\carmanual\conf\routes,D:\Scala\hseeberger\carmanual\target\scala-2.13\classes\routes)
+[debug] 	(D:\Scala\hseeberger\carmanual\conf\evolutions\default\1.sql,D:\Scala\hseeberger\carmanual\target\scala-2.13\classes\evolutions\default\1.sql)

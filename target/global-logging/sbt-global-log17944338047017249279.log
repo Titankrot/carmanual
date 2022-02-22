@@ -1,0 +1,27 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\test-classes ...
+[debug] Exporting web-assets-test:carmanual
+[info] done compiling
+[info] HomeControllerSpec:
+[info] HomeController GET
+[info] - should render the index page from a new instance of controller
+[info] - should render the index page from the application
+[info] - should render the index page from the router
+[info] CarRepositorySpec:
+[info] Car
+[info] - should be in list *** FAILED ***
+[info]   A timeout occurred waiting for a future to complete. Queried 11 times, sleeping 15 milliseconds between each query. (CarRepositorySpec.scala:24)
+[info] Run completed in 7 seconds, 40 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[error] Failed tests:
+[error] 	models.CarRepositorySpec
+[debug] Forcing garbage collection...
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 9 s, completed 22 февр. 2022 г., 15:22:24
+[debug] > Exec(idea-shell, None, None)

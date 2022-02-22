@@ -1,0 +1,27 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+[debug]   Running TaskDef(controllers.HomeControllerSpec, sbt.ForkMain$SubclassFingerscan@120d6fe6, false, [SuiteSelector])
+[info] HomeControllerSpec:
+[info] HomeController GET
+[info] - should render the index page from a new instance of controller
+[info] - should render the index page from the application
+[info] - should render the index page from the router
+[debug]     Produced 0 nested tasks and 3 events.
+[debug]   Running TaskDef(models.CarRepositorySpec, sbt.ForkMain$SubclassFingerscan@4ba2ca36, false, [SuiteSelector])
+[info] CarRepositorySpec:
+[info] Car
+[info] - should be in list *** FAILED ***
+[info]   A timeout occurred waiting for a future to complete. Queried 11 times, sleeping 15 milliseconds between each query. (CarRepositorySpec.scala:24)
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Run completed in 7 seconds, 69 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[debug] Passed tests:
+[debug] 	controllers.HomeControllerSpec
+[error] Failed tests:
+[error] 	models.CarRepositorySpec
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful

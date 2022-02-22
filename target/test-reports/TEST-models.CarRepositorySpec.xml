@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Titankrot" name="models.CarRepositorySpec" tests="1" errors="0" failures="1" skipped="0" time="0.17" timestamp="2022-02-22T15:24:41">
+          <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/><property name="sun.java.command" value="C:\Users\danil\AppData\Roaming\JetBrains\IdeaIC2021.3\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\danil\AppData\Local\Temp\idea7086.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 49216 ; idea-shell"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp866"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-01-18"/><property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp866"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="idea.installation.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.14+8-LTS-263"/><property name="user.name" value="danil"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="C:\Users\danil\AppData\Local\Temp\jna-95350900\jna18257910104689915404.dll"/><property name="java.vendor.version" value="18.9"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\danil\AppData\Local\Temp\"/><property name="java.version" value="11.0.14"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PostgreSQL\14\lib;C:\Users\danil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\danil\AppData\Local\Programs\Python\Python310\;C:\Users\danil\AppData\Local\Programs\Python\Launcher\;C:\Users\danil\AppData\Local\Microsoft\WindowsApps;D:\programs\JetBrains Rider 2021.3.2\bin;;C:\Users\danil\AppData\Local\GitHubDesktop\bin;."/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="java.class.path" value="C:\Users\danil\AppData\Roaming\JetBrains\IdeaIC2021.3\plugins\Scala\launcher\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Yekaterinburg"/><property name="os.name" value="Windows 11"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="RU"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\danil"/><property name="user.language" value="ru"/><property name="sbt.version" value="1.5.8"/><property name="swoval.tmpdir" value="C:\Users\danil\.sbt\1.0"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sbt.log.noformat" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="D:\Scala\hseeberger\carmanual"/><property name="os.arch" value="amd64"/><property name="idea.managed" value="true"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.14+8-LTS-263"/><property name="java.class.version" value="55.0"/>
+    </properties>
+          <testcase classname="models.CarRepositorySpec" name="Car should be in list" time="0.17">
+                      <failure message="org.scalatest.concurrent.Futures$FutureConcept$$anon$1: A timeout occurred waiting for a future to complete. Queried 11 times, sleeping 15 milliseconds between each query." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: org.scalatest.concurrent.Futures$FutureConcept$$anon$1: A timeout occurred waiting for a future to complete. Queried 11 times, sleeping 15 milliseconds between each query.
+	at org.scalatest.concurrent.Futures$FutureConcept.tryTryAgain$1(Futures.scala:538)
+	at org.scalatest.concurrent.Futures$FutureConcept.futureValueImpl(Futures.scala:550)
+	at org.scalatest.concurrent.Futures$FutureConcept.futureValueImpl$(Futures.scala:479)
+	at org.scalatest.concurrent.ScalaFutures$$anon$1.futureValueImpl(ScalaFutures.scala:275)
+	at org.scalatest.concurrent.Futures.whenReady(Futures.scala:676)
+	at org.scalatest.concurrent.Futures.whenReady$(Futures.scala:675)
+	at models.CarRepositorySpec.whenReady(CarRepositorySpec.scala:11)
+	at models.CarRepositorySpec.$anonfun$new$2(CarRepositorySpec.scala:24)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.WordSpecLike$$anon$3.apply(WordSpecLike.scala:1075)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.WordSpec.withFixture(WordSpec.scala:1881)
+	at org.scalatest.WordSpecLike.invokeWithFixture$1(WordSpecLike.scala:1073)
+	at org.scalatest.WordSpecLike.$anonfun$runTest$1(WordSpecLike.scala:1085)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:286)
+	at org.scalatest.WordSpecLike.runTest(WordSpecLike.scala:1085)
+	at org.scalatest.WordSpecLike.runTest$(WordSpecLike.scala:1067)
+	at org.scalatest.WordSpec.runTest(WordSpec.scala:1881)
+	at org.scalatest.WordSpecLike.$anonfun$runTests$1(WordSpecLike.scala:1144)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:393)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:370)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:407)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:376)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:458)
+	at org.scalatest.WordSpecLike.runTests(WordSpecLike.scala:1144)
+	at org.scalatest.WordSpecLike.runTests$(WordSpecLike.scala:1143)
+	at org.scalatest.WordSpec.runTests(WordSpec.scala:1881)
+	at org.scalatest.Suite.run(Suite.scala:1124)
+	at org.scalatest.Suite.run$(Suite.scala:1106)
+	at org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)
+	at org.scalatest.WordSpecLike.$anonfun$run$1(WordSpecLike.scala:1189)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:518)
+	at org.scalatest.WordSpecLike.run(WordSpecLike.scala:1189)
+	at org.scalatest.WordSpecLike.run$(WordSpecLike.scala:1187)
+	at models.CarRepositorySpec.org$scalatestplus$play$BaseOneAppPerSuite$$super$run(CarRepositorySpec.scala:11)
+	at org.scalatestplus.play.BaseOneAppPerSuite.run(BaseOneAppPerSuite.scala:50)
+	at org.scalatestplus.play.BaseOneAppPerSuite.run$(BaseOneAppPerSuite.scala:45)
+	at models.CarRepositorySpec.org$scalatest$BeforeAndAfterAll$$super$run(CarRepositorySpec.scala:11)
+	at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:213)
+	at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:210)
+	at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:208)
+	at models.CarRepositorySpec.run(CarRepositorySpec.scala:11)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:317)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:510)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:413)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

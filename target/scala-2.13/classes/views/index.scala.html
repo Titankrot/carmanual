@@ -1,0 +1,52 @@
+@()
+
+@main("Car Manual Api") {
+  <div class="body-wrapper">
+    <div class="block-wrapper block-wrapper-header">
+      <h1>Welcome to car manual!</h1>
+      <h2>Api directory:&emsp;/api</h2>
+    </div>
+    <div class="block-wrapper">
+      <h3>GET&emsp;/$id</h3>
+      <p>get info about car with id = $id</p>
+    </div>
+    <div class="block-wrapper">
+      <h3>GET&emsp;/all</h3>
+      <p>get list info of all cars</p>
+      <h4>params: number, color, brand, year, orderBy</h4>
+      <p>for number, color and brand you can use</p>
+      <p>"_" - one unknown char</p>
+      <p>"%" - many or no one unknown chars</p>
+      <p>year more than 1900 and less then 2022</p>
+      <p>order by:<p>
+      <p>&emsp;1 - id</p>
+      <p>&emsp;2 - number</p>
+      <p>&emsp;3 - color</p>
+      <p>&emsp;4 - brand</p>
+      <p>&emsp;5 - year</p>
+    </div>
+    <div class="block-wrapper">
+      <h3>DELETE&emsp;/$id</h3>
+      <p>delete car with id = $id</p>
+    </div>
+    <div class="block-wrapper">
+      <h3>POST&emsp;/add</h3>
+      <p>add car info in json format. Example:</p>
+      <code>{
+          "number":"АА123А96",
+          "color":"red",
+          "brand":"Honda",
+          "year":2000
+        }</code>
+      <p>Number format: [АВЕКМНОРСТУХ]{2}\d{3}[АВЕКМНОРСТУХ]\d{2,3}</p>
+    </div>
+    <div class="block-wrapper">
+      <h3>GET&emsp;/stat</h3>
+      <p>get some statistic</p>
+    </div>
+    <div class="block-wrapper">
+      <h3>GET&emsp;/log</h3>
+      <p>print requests to api</p>
+    </div>
+  </div>
+}

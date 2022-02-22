@@ -1,0 +1,5 @@
+GET /api/stat
+POST /api/add {"number":"YН123А96","color":"awaыуа","brand":"wadawd","year":2000}
+GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
+GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
+GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1

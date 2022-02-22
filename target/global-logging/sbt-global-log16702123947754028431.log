@@ -1,0 +1,199 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:75:17: fruitless type test: a value of type Throwable cannot also be a anorm.SqlMappingError
+[warn]         case e: SqlMappingError => "NoData"
+[warn]                 ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:76:14: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]         case _ => "¯\\\\_(ツ)_/¯"
+[warn]              ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:88:17: fruitless type test: a value of type Throwable cannot also be a anorm.SqlMappingError
+[warn]         case e: SqlMappingError => "NoData"
+[warn]                 ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:89:14: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]         case _ => "¯\\\\_(ツ)_/¯"
+[warn]              ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:99:17: fruitless type test: a value of type Throwable cannot also be a anorm.SqlMappingError
+[warn]         case e: SqlMappingError => "NoData"
+[warn]                 ^
+[warn] D:\Scala\hseeberger\carmanual\app\models\CarRepository.scala:100:14: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]         case _ => "¯\\\\_(ツ)_/¯"
+[warn]              ^
+[warn] 6 warnings found
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] In the last 756 seconds, 6.692 (0,9%) were spent in GC. [Heap: 0,11GB free of 0,26GB, max 1,50GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[error] D:\Scala\hseeberger\carmanual\app\views\main.scala.html:16:28: '.' expected but '(' found.
+[error]         <style> @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); </style>
+[error]                            ^
+[error] D:\Scala\hseeberger\carmanual\app\views\main.scala.html:26:9: identifier expected but '}' found.
+[error] </html>
+[error]        ^
+[error] two errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] In the last 1197 seconds, 5.431 (0,5%) were spent in GC. [Heap: 0,12GB free of 0,27GB, max 1,50GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[warn] Canceling execution...
+[debug] Forcing garbage collection...
+[error] D:\Scala\hseeberger\carmanual\app\controllers\ApiController.scala:51:104: not found: value orderBY
+[error]       logger.info(s"GET /api/all?number=${number}&color=${color}&brand=${brand}&year=${year}&orderBy=${orderBY}")
+[error]                                                                                                        ^
+[error] one error found

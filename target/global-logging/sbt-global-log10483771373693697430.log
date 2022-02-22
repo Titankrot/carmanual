@@ -1,0 +1,17 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source and 1 Java source to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 2 Scala sources to D:\Scala\hseeberger\carmanual\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:carmanual
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[warn] In the last 504 seconds, 58.529 (11,6%) were spent in GC. [Heap: 0,29GB free of 0,41GB, max 1,50GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[success] Total time: 505 s (08:25), completed 21 февр. 2022 г., 22:58:00
+[debug] > Exec(idea-shell, None, None)

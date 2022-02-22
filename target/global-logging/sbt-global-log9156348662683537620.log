@@ -1,0 +1,34 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] akka.stream.impl.io.ConnectionSourceStage$$anon$1$$anon$2: Bind failed because of java.net.BindException: [/0.0.0.0:9000] Address already in use: bind
+[error] Caused by: java.net.BindException: [/0.0.0.0:9000] Address already in use: bind
+[error] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+[error] 	at java.base/sun.nio.ch.Net.bind(Net.java:459)
+[error] 	at java.base/sun.nio.ch.Net.bind(Net.java:448)
+[error] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+[error] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+[error] 	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:60)
+[error] 	at akka.io.TcpListener.<init>(TcpListener.scala:57)
+[error] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[error] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[error] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[error] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+[error] 	at akka.util.Reflect$.instantiate(Reflect.scala:73)
+[error] 	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:101)
+[error] 	at akka.actor.Props.newActor(Props.scala:226)
+[error] 	at akka.actor.ActorCell.newActor(ActorCell.scala:616)
+[error] 	at akka.actor.ActorCell.create(ActorCell.scala:643)
+[error] 	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:514)
+[error] 	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:536)
+[error] 	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:295)
+[error] 	at akka.dispatch.Mailbox.run(Mailbox.scala:230)
+[error] 	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+[error] 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error] 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[error] (Compile / run) java.lang.reflect.InvocationTargetException
+[error] Total time: 5 s, completed 21 февр. 2022 г., 22:58:18
+[debug] > Exec(idea-shell, None, None)
