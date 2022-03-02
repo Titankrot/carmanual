@@ -45,7 +45,7 @@ class Routes(
     ("""GET""", this.prefix, """controllers.HomeController.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/""" + "$" + """id<[0-9]+>""", """controllers.ApiController.getCar(id:Long)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/all""", """controllers.ApiController.getListCars(number:String ?= "%", color:String ?= "%", brand:String ?= "%", year:Long ?= -1, orderBy:Int ?= 1)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/all""", """controllers.ApiController.getListCars(number:String ?= "*", color:String ?= "*", brand:String ?= "*", year:Long ?= -1, orderBy:Int ?= 1)"""),
     ("""DELETE""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/""" + "$" + """id<[0-9]+>""", """controllers.ApiController.deleteCar(id:Long)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/add""", """controllers.ApiController.insertCar()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/stat""", """controllers.ApiController.getStat()"""),
@@ -224,7 +224,7 @@ class Routes(
   
     // @LINE:14
     case controllers_ApiController_getListCars3_route(params@_) =>
-      call(params.fromQuery[String]("number", Some("%")), params.fromQuery[String]("color", Some("%")), params.fromQuery[String]("brand", Some("%")), params.fromQuery[Long]("year", Some(-1)), params.fromQuery[Int]("orderBy", Some(1))) { (number, color, brand, year, orderBy) =>
+      call(params.fromQuery[String]("number", Some("*")), params.fromQuery[String]("color", Some("*")), params.fromQuery[String]("brand", Some("*")), params.fromQuery[Long]("year", Some(-1)), params.fromQuery[Int]("orderBy", Some(1))) { (number, color, brand, year, orderBy) =>
         controllers_ApiController_getListCars3_invoker.call(ApiController_2.getListCars(number, color, brand, year, orderBy))
       }
   

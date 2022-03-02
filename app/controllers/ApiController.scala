@@ -29,7 +29,11 @@ class ApiController @Inject()(CarService: CarRepository, val controllerComponent
   def getListCars(number: String, color: String, brand: String, year: Long, orderBy: Int) = Action.async {
     implicit request: Request[AnyContent] =>
       printInApiLog(s"GET /api/all?number=${number}&color=${color}&brand=${brand}&year=${year}&orderBy=${orderBy}")
-      CarService.list(number, color, brand, year, orderBy.toString)
+      CarService.list(
+        replaceSpecialSymbols(number),
+        replaceSpecialSymbols(color),
+        replaceSpecialSymbols(brand),
+        year, orderBy.toString)
         .flatMap(x => Future.successful(Ok(Json.toJson(x))))
   }
 
@@ -37,7 +41,7 @@ class ApiController @Inject()(CarService: CarRepository, val controllerComponent
     implicit request: Request[AnyContent] =>
       printInApiLog(s"DELETE /api/${id}")
       CarService.findById(id).flatMap {
-      case Some(Car@car) =>
+      case Some(_) =>
         CarService.delete(id)
         Future.successful(Ok("Deleted"))
       case _ => Future.successful(NotFound("NotFound"))
@@ -49,7 +53,7 @@ class ApiController @Inject()(CarService: CarRepository, val controllerComponent
       val json = request.body.asJson.get
       printInApiLog(s"POST /api/add " + json.toString)
       json.validate[Car] match {
-      case JsSuccess(car, _) => car.carNumber match {
+      case JsSuccess(car, _) if !haveBadSymbols(car.carColor, car.carBrand) => car.carNumber match {
         case NumberRegex(carNumber) => CarService.list(number = carNumber).flatMap {
           case Nil =>
             CarService.insert(car)

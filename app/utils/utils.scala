@@ -1,11 +1,13 @@
 package utils
 
+
 import models.Car
 import play.api.libs.json.{JsPath, Json, Reads, Writes}
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
 
 import java.io.{BufferedReader, FileReader, FileWriter}
+
 
 object utils {
   val NumberRegex = """([АВЕКМНОРСТУХ]{2}\d{3}[АВЕКМНОРСТУХ]\d{2,3})""".r
@@ -27,10 +29,18 @@ object utils {
       (JsPath \ "brand").read[String](maxLength[String](50)) and
       (JsPath \ "year").read[Int](min[Int](1900) keepAnd max[Int](2022))
     )(Car.apply(id=0, _, _, _, _))
+
   def printInApiLog(str: String): Unit = {
     val fw = new FileWriter(apiLogFilename, true)
     fw.write(str + "\n")
     fw.close()
+  }
+
+  def replaceSpecialSymbols(str: String): String = str.map { case '*' => '%' case x => x}
+
+  def haveBadSymbols(color: String, brand: String): Boolean = {
+    val badSymbols = List('*', '_', '%')
+    color.exists(badSymbols.contains) || brand.exists(badSymbols.contains)
   }
 
   def readApiLog(): String = {

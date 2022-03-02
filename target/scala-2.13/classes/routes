@@ -11,7 +11,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # Api
 GET     /api/$id<[0-9]+>            controllers.ApiController.getCar(id:Long)
-GET     /api/all                    controllers.ApiController.getListCars(number: String ?= "%", color: String ?= "%", brand: String ?= "%", year: Long ?= -1, orderBy: Int ?= 1)
+GET     /api/all                    controllers.ApiController.getListCars(number: String ?= "*", color: String ?= "*", brand: String ?= "*", year: Long ?= -1, orderBy: Int ?= 1)
 DELETE  /api/$id<[0-9]+>            controllers.ApiController.deleteCar(id:Long)
 POST    /api/add                    controllers.ApiController.insertCar()
 GET     /api/stat                   controllers.ApiController.getStat()

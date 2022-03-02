@@ -41,7 +41,7 @@ Seq[Any](format.raw/*1.4*/("""
       <h4>params: number, color, brand, year, orderBy</h4>
       <p>for number, color and brand you can use</p>
       <p>"_" - one unknown char</p>
-      <p>"%" - many or no one unknown chars</p>
+      <p>"*" - many or no one unknown chars</p>
       <p>year more than 1900 and less then 2022</p>
       <p>order by:<p>
       <p>&emsp;1 - id</p>
@@ -92,7 +92,7 @@ Seq[Any](format.raw/*1.4*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 0a5e992c4adf56415e953cec2eab2f6df4a5f0b5
+                  HASH: 7ad31817f7589cf64a7b14d3fd255e8bd021d195
                   MATRIX: 722->1|818->3|848->8|878->30|917->32|947->36|2054->1115|2083->1116|2123->1128|2257->1235|2286->1236|2361->1283|2390->1284|2419->1285|2448->1286|2478->1288|2507->1289|2536->1290|2565->1291|2609->1307|2638->1308|2669->1311|2698->1312|2977->1561
                   LINES: 21->1|26->1|28->3|28->3|28->3|29->4|60->35|60->35|61->36|65->40|65->40|66->41|66->41|66->41|66->41|66->41|66->41|66->41|66->41|66->41|66->41|66->41|66->41|77->52
                   -- GENERATED --

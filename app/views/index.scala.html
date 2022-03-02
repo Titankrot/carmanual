@@ -16,7 +16,7 @@
       <h4>params: number, color, brand, year, orderBy</h4>
       <p>for number, color and brand you can use</p>
       <p>"_" - one unknown char</p>
-      <p>"%" - many or no one unknown chars</p>
+      <p>"*" - many or no one unknown chars</p>
       <p>year more than 1900 and less then 2022</p>
       <p>order by:<p>
       <p>&emsp;1 - id</p>
@@ -38,6 +38,7 @@
           "brand":"Honda",
           "year":2000
         }</code>
+      <p>not allowed symbols: '_', '*', '%'</p>
       <p>Number format: [АВЕКМНОРСТУХ]{2}\d{3}[АВЕКМНОРСТУХ]\d{2,3}</p>
     </div>
     <div class="block-wrapper">

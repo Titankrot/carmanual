@@ -3,3 +3,22 @@ POST /api/add {"number":"YН123А96","color":"awaыуа","brand":"wadawd","year"
 GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
 GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
 GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
+POST /api/add {"number":"АА194А196","color":"awawed","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А196","color":"awaw*d","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awaw*d","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awaw*d","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awaw_d","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awaw%d","brand":"wadawd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awaw%d","brand":"wad%wd","year":1990}
+POST /api/add {"number":"АА194А96","color":"awawd","brand":"wadwd","year":1990}
+GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
+GET /api/all?number=%&color=%&brand=%&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=*&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=АА999А196&color=*&brand=*&year=-1&orderBy=1
+GET /api/all?number=АА999А196&color=Colo_&brand=*&year=-1&orderBy=1
+GET /api/all?number=АА999А*&color=Colo_&brand=*&year=-1&orderBy=1

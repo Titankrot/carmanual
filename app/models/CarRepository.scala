@@ -48,7 +48,6 @@ class CarRepository @Inject()(dbapi: DBApi)(implicit databaseExecutionContext: D
 
   def insert(car: Car): Future[Option[Long]] = Future {
     db.withConnection { implicit connection =>
-      val processStart: DateTime = DateTime.now()
       SQL"""
         INSERT INTO Cars VALUES (
           DEFAULT,

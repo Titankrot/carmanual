@@ -59,9 +59,9 @@ package controllers {
     }
   
     // @LINE:14
-    def getListCars(number:String = "%", color:String = "%", brand:String = "%", year:Long = -1, orderBy:Int = 1): Call = {
+    def getListCars(number:String = "*", color:String = "*", brand:String = "*", year:Long = -1, orderBy:Int = 1): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "api/all" + play.core.routing.queryString(List(if(number == "%") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("number", number)), if(color == "%") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("color", color)), if(brand == "%") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("brand", brand)), if(year == -1) None else Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("year", year)), if(orderBy == 1) None else Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("orderBy", orderBy)))))
+      Call("GET", _prefix + { _defaultPrefix } + "api/all" + play.core.routing.queryString(List(if(number == "*") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("number", number)), if(color == "*") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("color", color)), if(brand == "*") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("brand", brand)), if(year == -1) None else Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("year", year)), if(orderBy == 1) None else Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("orderBy", orderBy)))))
     }
   
     // @LINE:15
